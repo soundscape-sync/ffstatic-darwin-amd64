@@ -1,6 +1,6 @@
 //go:build darwin && amd64
 
-package ffmpeg
+package ffstatic_darwin_amd64
 
 import (
 	_ "embed"
