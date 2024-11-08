@@ -8,10 +8,10 @@ import (
     "os"
 )
 
-//go:embed linux_amd64/ffmpeg
+//go:embed ffmpeg
 var ffmpeg []byte
 
-//go:embed linux_amd64/ffprobe
+//go:embed ffprobe
 var ffprobe []byte
 
 func writeTempExec(pattern string, binary []byte) (string, error) {
